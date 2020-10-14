@@ -84,7 +84,11 @@ bytecodes: [
                 B(Mov), R(this), R(0),
                 B(Mov), R(context), R(2),
   /*   48 E> */ B(CallRuntime), U16(Runtime::kAddPrivateBrand), R(0), U8(3),
+<<<<<<< ours
   /*   53 S> */ B(Wide), B(LdaSmi), I16(265),
+=======
+  /*   53 S> */ B(Wide), B(LdaSmi), I16(268),
+>>>>>>> theirs
                 B(Star), R(3),
                 B(LdaConstant), U8(0),
                 B(Star), R(4),
@@ -115,7 +119,11 @@ bytecodes: [
                 B(Mov), R(this), R(0),
                 B(Mov), R(context), R(2),
   /*   41 E> */ B(CallRuntime), U16(Runtime::kAddPrivateBrand), R(0), U8(3),
+<<<<<<< ours
   /*   46 S> */ B(Wide), B(LdaSmi), I16(264),
+=======
+  /*   46 S> */ B(Wide), B(LdaSmi), I16(267),
+>>>>>>> theirs
                 B(Star), R(3),
                 B(LdaConstant), U8(0),
                 B(Star), R(4),
@@ -146,7 +154,11 @@ bytecodes: [
                 B(Mov), R(this), R(0),
                 B(Mov), R(context), R(2),
   /*   48 E> */ B(CallRuntime), U16(Runtime::kAddPrivateBrand), R(0), U8(3),
+<<<<<<< ours
   /*   53 S> */ B(Wide), B(LdaSmi), I16(265),
+=======
+  /*   53 S> */ B(Wide), B(LdaSmi), I16(268),
+>>>>>>> theirs
                 B(Star), R(3),
                 B(LdaConstant), U8(0),
                 B(Star), R(4),
@@ -177,7 +189,11 @@ bytecodes: [
                 B(Mov), R(this), R(0),
                 B(Mov), R(context), R(2),
   /*   41 E> */ B(CallRuntime), U16(Runtime::kAddPrivateBrand), R(0), U8(3),
+<<<<<<< ours
   /*   46 S> */ B(Wide), B(LdaSmi), I16(264),
+=======
+  /*   46 S> */ B(Wide), B(LdaSmi), I16(267),
+>>>>>>> theirs
                 B(Star), R(4),
                 B(LdaConstant), U8(0),
                 B(Star), R(5),
